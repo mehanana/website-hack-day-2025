@@ -1,17 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla');
-
+@import url('https://fonts.googleapis.com/css2?family=Manjari');
 /* The body class targets the <body> tag in your html file */
 body {
-    background-color: rgb(227, 219, 216);
-    font-family: "Karla", sans-serif;
+    background-color: rgb(211, 184, 197);
+    font-family: "Manjari", sans-serif;
     margin: 0;
+}
+
+.name {
+    padding: 40px;
+    background-color: #98768E;
+    color: #FFFFFF;
+    font-size: 16px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.name a {
+    text-decoration: none;
+    color: #281E30;
+    text-align: bottom;
 }
 
 /* The following classes are used to style the corresponding html classes */
 .menu {
     padding: 40px;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #F6D4CF;
+    color: #F6D4CF;
     font-size: 16px;
     position: sticky;
     top: 0;
@@ -21,7 +38,7 @@ body {
 
 .menu a {
     text-decoration: none;
-    color: #ffffff;
+    color: #281E30;
 }
 
 .content {
