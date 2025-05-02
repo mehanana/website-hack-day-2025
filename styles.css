@@ -67,11 +67,128 @@ body {
     margin: 3% 3%;
 }
 
+.content h1 {
+    font-family: "Permanent Marker";
+    font-size: 40px;
+}
+
+.content p {
+    font-size: 25px;
+}
+.text-section {
+    max-width: 600px;
+    margin-right: 20px;
+}
 .profile-pic {
     border: 7px solid #88AFCD;
     height: 40vh;
 }
 
+.resume-button {
+    border: 3px solid #B5C7D6;
+    border-radius: 50px;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #DAD5C9;
+}
+
+.resume-button:hover {
+    color: #A17E66;
+}
+
 .circle-frame {
     border-radius: 50%;
 }
+
+.social-icons-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+  }
+
+  .contact-container {
+    padding: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #CBCFD2;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #B5C7D6;
+    margin: 3% 3%;
+  }
+
+  .contact-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .contact-info {
+    width: 100%;
+  }
+
+  .input-message-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .input-fields {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+    max-width: 40%;
+  }
+
+  .message-field {
+    flex: 1;
+    width: 100%;
+    min-height: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+  } 
+  
+  .input-field {
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #CBCFD2;
+    border: 3px solid #88AFCD;
+    border-radius: 15px;
+  }  
+
+  .email-send-button {
+    border: 3px solid #B5C7D6;
+    border-radius: 50px;
+    color: black;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #DAD5C9;
+    display: block;
+  }
+  .email-send-button:hover {
+    color: #A17E66;
+  }
+
+.social-icons-2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-icons-2 img {
+    width: 40px;
+    height: 40px;
+  }
