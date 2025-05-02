@@ -90,10 +90,15 @@
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('visible');
+                entry.target.classList.remove('hidden');
+            } else {
+                entry.target.classList.remove('visible');
+                entry.target.classList.add('hidden');
             }
         });
     }, {
-        threshold: 0.1
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px' // This creates a small buffer zone for smoother transitions
     });
 
     timelineItems.forEach(item => {
