@@ -132,7 +132,7 @@ body {
 }
 
 .timeline h1 {
-    font-family: var(--header-font);
+    font-family: var(--heading-font);
     font-size: 40px;
     text-align: center;
     width: 100%;
